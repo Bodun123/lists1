@@ -1,0 +1,24 @@
+body {
+    background-image: url(https://i.pinimg.com/564x/d9/66/ed/d966ed3f00c2dde92cb0069d76a7eec1.jpg);
+    background-size: 100%;
+    margin: auto;
+    max-height: 100%;
+}
+p {
+    background: linear-gradient(red,black);
+    font-size: 40px;
+    color: white;
+}
+ul, ol, dl {
+    font-size: 24px;
+    color: rgb(0, 17, 110);
+    margin: 100px;
+}
+ul.u1 li::marker {
+    color: black;
+    font-size: 1.2em;
+}
+.u2 li {
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
